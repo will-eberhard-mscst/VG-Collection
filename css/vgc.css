@@ -1,0 +1,178 @@
+
+/* the Top nav bar */
+#top {
+    text-align: right;
+    color:red;
+}
+#top a {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+#top a:hover{
+    background-color: lightgray;
+}
+header nav{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+header nav a{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    text-decoration: none;
+    background-color: #444284;
+}
+header nav a:hover{
+    background-color: gray;
+    padding: 10px;
+}
+
+.search input{
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.search input[type="text"]{
+    height: 25px;
+}
+.search select {
+    height: 25px;
+}
+.search input[type="submit"]{
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 5px;
+}
+h1 {
+    border-bottom: 2px solid white;
+}
+
+/* Logins */
+.login input{
+    display:block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.login div{
+    margin-top:1.2%;
+    margin-bottom: 1%;
+}
+.login a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+.login input[type="submit"]{
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/* Entry buttons */
+.entry input[type="submit"]{
+    border-radius: 8px;
+    margin-top: 8px;
+    height: 30px;
+    width: 80px;
+}
+input[name="update"]{
+    background-color: rgba(0, 255, 0, 1.5);
+    font-weight: bold;
+}
+input[name="delete"]{
+    background-color: rgba(255, 0, 0, 1.5);
+    font-weight: bold;
+}
+
+/* Error messages */
+.alert {
+  padding: 20px;
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+  margin-bottom: 15px;
+}
+.success{
+    padding: 20px;
+    background-color: rgba(0, 255, 0, 0.5);
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Body styles */
+input[type="submit"]{ 
+    cursor: pointer;
+}
+body {
+    background-color: #3e374f;
+    color: white;
+    margin: 1%;
+}
+input {
+    background-color: white;
+}
+a{
+    color:white;
+}
+.buttonA{
+    margin-top:1%;
+    margin-bottom: 1%;
+}
+.buttonA a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+div a:hover{
+    background-color: lightgray;
+}
+#usersTable {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: auto;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top:1%;
+}
+td, th {
+  border: 1px solid white;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #444284;
+}
+tr:nth-child(odd) {
+  background-color: #393863;
+}
+table input[type="submit"]{
+    border-radius: 8px;
+    margin-top: 8px;
+    height: 30px;
+    width: 60px;
+}
+
+
+caption {
+    text-align: left;
+    color: red;
+}
+
+#other label{
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
